@@ -1,6 +1,6 @@
 const checkButton = document.querySelector('#checkGender')
 const firstName = document.querySelector('#enteredName')
-const serverUrl = 'https://api.genderize.io';
+const serverUrl = 'https://api.genderize.io'
 const result = document.querySelector('.result')
 
 async function check(env) {
